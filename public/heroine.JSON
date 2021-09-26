@@ -3,7 +3,7 @@
     "name": "Deepika Padukone",
     "age": 32,
     "salary": 100000,
-    "condition": "married",
+    "condition": "Married",
     "country": "India",
     "id": 1
 }, {
@@ -11,7 +11,7 @@
     "name": "Katrina Kaif",
     "age": 38,
     "salary": 20000,
-    "condition": "single",
+    "condition": "Single",
     "country": "India",
     "id": 2
 }, {
@@ -19,7 +19,7 @@
     "name": "Angelina Jolie",
     "age": 40,
     "salary": 30000,
-    "condition": "married",
+    "condition": "Married",
     "country": "America",
     "id": 3
 }, {
@@ -27,15 +27,15 @@
     "name": "Emma Watson",
     "age": 30,
     "salary": 20000,
-    "condition": "single",
+    "condition": "Single",
     "country": "France",
     "id": 4
 }, {
-    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsyuIQrCcNMKBhfCZEjdgva3_kGvD4u698Vg&usqp=CAU",
+    "img": "data:image/jpeg;base64,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",
     "name": "Alia Bhatt",
     "age": 28,
     "salary": 50000,
-    "condition": "married",
+    "condition": "Married",
     "country": "India",
     "id": 5
 }, {
@@ -43,7 +43,7 @@
     "name": "Nusrat Imrose Tisha,",
     "age": 34,
     "salary": 50000,
-    "condition": "married",
+    "condition": "Married",
     "country": "Bangladesh",
     "id": 6
 }, {
@@ -51,7 +51,7 @@
     "name": "Bidya Sinha Saha Mim",
     "age": 30,
     "salary": 60000,
-    "condition": "single",
+    "condition": "Single",
     "country": "Bangladesh",
     "id": 7
 }, {
@@ -59,7 +59,7 @@
     "name": "Kiara Advani",
     "age": 26,
     "salary": 50000,
-    "condition": "single",
+    "condition": "Single",
     "country": "India",
     "id": 8
 }, {
@@ -67,7 +67,7 @@
     "name": "Kristen Stewart",
     "age": 31,
     "salary": 30000,
-    "condition": "married",
+    "condition": "Married",
     "country": "America",
     "id": 9
 }]

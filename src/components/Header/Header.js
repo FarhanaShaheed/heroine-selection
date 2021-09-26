@@ -11,8 +11,8 @@ const Header = () => {
             <a href="Fashion">Fashion</a>
             </nav>
             <div className="header-selection">
-                <h1>Heroine Selection for Summer</h1>
-                <h3>Total Budget: 100Millions</h3>
+                <h1>Heroine Selection for Movies</h1>
+                <h3>Budget for Movie: 200Millions</h3>
             </div>
         </div>
     );

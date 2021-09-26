@@ -17,10 +17,8 @@
 }
 
 .header .header-selection {
-    background-color: grey;
     padding: 5px;
     margin: 30px;
-
-
+    color: rgb(3, 3, 59);
 
 }

@@ -14,11 +14,11 @@ const Heroine = (props) => {
         <div className="heroine">
             <img src={img} alt="" />
             <h5>Name: {name}</h5>
-            <h6>Country:{country}</h6>
-            <p>Age:{age}</p>
-            <p>Salary:{salary}</p>
+            <h6>Country: {country}</h6>
+            <p>Age: {age}</p>
+            <p>Salary: {salary}</p>
             <p>Condition: {condition}</p>
-            <button onClick={() => props.handleAddToList(props.heroine)}className="listButton">{element} Add to List</button>
+            <button onClick={() => props.handleAddToList(props.heroine, name)}className="listButton">{element} Add to List</button>
 
         </div>
     );

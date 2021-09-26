@@ -8,6 +8,7 @@ import List from '../../List/List';
 const Platform = () => {
     const [heroines , setHeroines] = useState([]);
     const [list, setList] = useState([]);
+    const [names, setNames] = useState([]);
 
     useEffect(() =>{
         fetch('./heroine.JSON')
@@ -15,15 +16,17 @@ const Platform = () => {
         .then(data => setHeroines(data));
       },[])
     
-      const handleAddToList = heroine =>{
+      const handleAddToList = (heroine , name) =>{
              const newList =[...list, heroine];
+             const newName =[...names, name];
              setList(newList);
+             setNames(newName);
       }
 
     return (
         < div className="total-platform">
             <div className="total-heroines">
-                <h2>Products: {heroines.length}</h2>
+                <h2>Number of Heroines: {heroines.length}</h2>
                 <div className="heroine-container">
                 {
                     heroines.map(heroine =>< Heroine key={heroine.id} heroine={heroine}
@@ -34,7 +37,7 @@ const Platform = () => {
                 </div>
             </div>
             <div className="total-calculation">
-                    <List list={list}></List>
+                    <List list={list} names={names}></List>
             </div>
             
         </div>
