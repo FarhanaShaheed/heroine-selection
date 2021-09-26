@@ -1,0 +1,19 @@
+.heroine {
+    background-color: burlywood;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid blueviolet;
+}
+
+.heroine img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.listButton {
+    background-color: crimson;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+}

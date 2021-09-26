@@ -1,0 +1,14 @@
+.total-platform {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.total-heroines {
+    border-right: 1px solid black;
+}
+
+.heroine-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
